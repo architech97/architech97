@@ -23,6 +23,10 @@
 
 ---
 
+<p align="center"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1100&color=53DDEB&center=true&vCenter=true&width=760&lines=Revit+API+%E2%80%A2+pyRevit+%E2%80%A2+C%23;Agentic+BIM+%E2%80%A2+MCP+%E2%80%A2+Local+AI;Architecture+%C3%97+Automation+%C3%97+Intelligence" alt="Animated introduction to ArchiTECH skills" /></p>
+
+<p align="center"><em>Animated isometric BIM blueprint above · Motion effects depend on GitHub SVG rendering and reduced-motion settings.</em></p>
+
 ## About me
 
 I'm the founder and developer of **ArchiTECH**, where I connect architectural practice with BIM automation and applied AI. I build Revit tools, improve documentation and coordination workflows, and develop assistants that can work with building information in a controlled, traceable way.
