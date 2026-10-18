@@ -29,7 +29,12 @@
   <g clip-path="url(#frame)">
     <rect width="1200" height="340" fill="url(#background)" />
     <rect x="682" width="518" height="340" fill="url(#grid)" />
-    <ellipse cx="958" cy="194" rx="296" ry="228" fill="url(#halo)" />
+    <ellipse cx="958" cy="194" rx="296" ry="228" fill="url(#halo)">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="4s" repeatCount="indefinite" />
+    </ellipse>
+    <rect x="-330" y="0" width="160" height="340" fill="#3ecdf4" opacity="0.06" transform="skewX(-20)">
+      <animate attributeName="x" values="-330;1550" dur="7s" repeatCount="indefinite" />
+    </rect>
     <path d="M0 337H1200" stroke="url(#accent)" stroke-width="5" />
     <path d="M700 0V340" stroke="#68b6e0" stroke-opacity="0.11" />
 
@@ -50,6 +55,7 @@
     </g>
 
     <g fill="none" stroke-linejoin="round" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -7;0 0" dur="5s" repeatCount="indefinite" />
       <path d="M754 252L934 181L1114 252L934 323Z" fill="#0b2034" stroke="#318bc3" stroke-opacity="0.55" />
       <path d="M799 234L979 305M844 217L1024 287M889 199L1069 269M799 270L979 199M844 287L1024 217M889 305L1069 234" stroke="#24618e" stroke-opacity="0.5" />
       <path d="M754 252V261L934 332L1114 261V252M934 323V332" stroke="#235377" stroke-opacity="0.8" />
@@ -81,6 +87,7 @@
       </g>
 
       <g stroke="#4edce8" stroke-width="1.2">
+        <animate attributeName="opacity" values="0.45;1;0.45" dur="3s" repeatCount="indefinite" />
         <path d="M784 223H759V170H793" stroke-opacity="0.6" />
         <path d="M1082 206H1121V156H1099" stroke-opacity="0.6" />
         <path d="M1052 286H1111V301H1140" stroke-opacity="0.45" />
