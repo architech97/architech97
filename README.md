@@ -1,78 +1,81 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/architech97/architech97/main/assets/architech-profile-banner.svg" alt="ArchiTECH — Architecture, Automation, Intelligence" width="100%" />
+</p>
+
 <h1 align="center">Hi, I'm Navneet Singh 👋</h1>
 
-<h3 align="center">AEC technologist &amp; BIM automation developer — I build AI agents for Autodesk Revit</h3>
+<p align="center">
+  <strong>Architect · BIM Manager &amp; Coordinator · BIM Technologist</strong><br />
+  Building practical tools at the intersection of architecture, software, and AI.
+</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/architech-india/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge" alt="Connect on LinkedIn" />
   </a>
   <a href="https://architech97.github.io/architech-portfolio/">
-    <img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Portfolio-0B1220?style=for-the-badge" alt="Explore the ArchiTECH portfolio" />
   </a>
-  <img src="https://komarev.com/ghpvc/?username=architech97&style=for-the-badge&color=0A66C2&label=Profile+views" alt="Profile views" />
+  <a href="https://github.com/architech97?tab=repositories">
+    <img src="https://img.shields.io/badge/Explore_my_work-087EA4?style=for-the-badge" alt="Browse my public repositories" />
+  </a>
 </p>
 
 ---
 
-### 🏗️ What I build
+## About me
 
-I'm the founder and developer of **ArchiTECH** — an *agentic BIM operating system* that brings
-**local-first, privacy-preserving AI** into the Architecture / Engineering / Construction (AEC)
-workflow. I turn Autodesk Revit into an AI-assisted design environment: a plugin + Model-Context-
-Protocol (MCP) bridge that lets any AI agent **read** and — safely, behind approval gates — **act
-on** live building models, all grounded in a self-improving RAG knowledge base.
+I'm the founder and developer of **ArchiTECH**, where I connect architectural practice with BIM automation and applied AI. I build Revit tools, improve documentation and coordination workflows, and develop assistants that can work with building information in a controlled, traceable way.
 
-- 🤖 **Local & offline AI** — Ollama + Qdrant RAG, no cloud dependency, runs on your own GPU
-- 🔌 **Revit ↔ AI bridge** — C# / PyRevit add-ins and an MCP server exposing live model data + tools
-- 🧠 **Self-improving knowledge** — a vault-grounded agent that learns from every completed task
-- 🛡️ **Safety-first writes** — every model change is a typed command behind a gated, reversible transaction
-- 🎙️ **JARVIS** — a voice-driven "AI butler" orchestrating the whole BIM stack
+My focus is practical: reduce repetitive work, make model information easier to use, and build maintainable tools that fit how AEC teams deliver projects.
 
----
+## What I work on
 
-### 🛠️ Tech I work with
+| Area | Focus |
+| :--- | :--- |
+| **Revit automation** | C# add-ins, Revit API development, modular pyRevit extensions, and Dynamo workflows. |
+| **BIM quality & delivery** | Model health, QA/QC, documentation automation, schedules, view and sheet workflows, and coordination. |
+| **AI-assisted BIM** | Revit-aware assistants, Model Context Protocol (MCP) integrations, and controlled tool execution. |
+| **Local knowledge systems** | Retrieval-augmented generation (RAG), searchable technical knowledge, and reusable task methods. |
+| **Design technology** | Image-to-3D exploration, geometry and material workflows, and AEC visualization. |
 
-<p>
-  <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
-  <br/>
-  <img src="https://img.shields.io/badge/Revit%20API-0696D7?style=flat-square&logo=autodesk&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyRevit-F7931E?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/MCP-8A2BE2?style=flat-square&logo=anthropic&logoColor=white" />
-  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" />
-  <img src="https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logo=qdrant&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tauri-24C8DB?style=flat-square&logo=tauri&logoColor=white" />
-  <img src="https://img.shields.io/badge/WPF-0C54C2?style=flat-square&logo=dotnet&logoColor=white" />
-</p>
+Revit is my main development platform. My broader AEC work also spans **AutoCAD, Navisworks, Rhino, and SketchUp**.
 
----
+## Featured work
 
-### 📌 Featured projects
+| Project | What you'll find |
+| :--- | :--- |
+| **[ArchiTECH Agent](https://github.com/architech97/ArchiTECH-Agent)** | Python tooling for local AI responses and knowledge retrieval with Ollama and Qdrant, plus health checks and an optional knowledge-ingestion workflow. |
+| **[ArchiTECH Command Center](https://github.com/architech97/architech-command-center)** | A public snapshot of the ArchiTECH operations dashboard. The connected services run in the local environment. |
+| **[ArchiTECH Portfolio](https://architech97.github.io/architech-portfolio/)** | An interactive portfolio presenting architecture, BIM automation, and AI-assisted workflows through an architectural drawing-set visual language. [View source](https://github.com/architech97/architech-portfolio). |
 
-| Project | What it is |
-| :-- | :-- |
-| 🤖 **[ArchiTECH-Agent](https://github.com/architech97/ArchiTECH-Agent)** | Portable **local, offline, self-improving RAG agent** for the ArchiTECH BIM/Revit workspace (Ollama + Qdrant) — code, model recipe, and brain export/import toolkit. |
-| 🎬 **[architech-portfolio](https://architech97.github.io/architech-portfolio/)** | A cinematic portfolio of the agentic BIM OS — *BIM × Tech × AI × Architecture*. |
-| 🧩 **[architech-command-center](https://github.com/architech97/architech-command-center)** | The agentic-OS layer: dashboard, capability registry, safety gates, and evidence ledger. |
+## Tools & technologies
 
----
+| Domain | Stack |
+| :--- | :--- |
+| **BIM development** | C# · .NET · Python · Revit API · pyRevit · Dynamo |
+| **AI & knowledge** | MCP · Ollama · Qdrant · RAG |
+| **Desktop & interfaces** | WPF · Rust · Tauri · TypeScript · Node.js |
+| **Coordination & delivery** | Autodesk Revit · Navisworks · AutoCAD · ACC / BIM 360 |
 
-### 📊 GitHub at a glance
+## How I build
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=architech97&show_icons=true&hide_border=true&count_private=true&title_color=0A66C2&icon_color=0A66C2" alt="stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=architech97&layout=compact&hide_border=true&langs_count=8&title_color=0A66C2" alt="top languages" />
-</p>
+- **Start with the workflow.** Understand the model, the deliverable, and the people using the tool.
+- **Build for reuse.** Keep tools modular, consistent, and maintainable across projects.
+- **Make model changes deliberate.** Design around human approval, permissions, Revit transactions, validation, and rollback.
+- **Keep knowledge close to the work.** Prioritize local processing for sensitive information and make actions traceable through logs and evidence.
+
+## Current focus
+
+- Revit-native assistants that connect user requests with the right tools and model context.
+- Reusable QA/QC and documentation automation for real project workflows.
+- Local knowledge systems that make proven task methods easier to find and reuse.
+- Geometry and visualization workflows that connect AI-generated assets with BIM.
 
 ---
 
-### 📫 Let's connect
+### Let's connect
 
-- 💼 **LinkedIn** — [architech-india](https://www.linkedin.com/in/architech-india/)
-- 🌐 **Portfolio** — [architech97.github.io/architech-portfolio](https://architech97.github.io/architech-portfolio/)
-- 🏢 **Building** — [ArchiTECH](https://github.com/architech97), the agentic BIM operating system
+Interested in **BIM automation, Revit development, local AI, or AEC technology**? Find me on [LinkedIn](https://www.linkedin.com/in/architech-india/) or explore my [portfolio](https://architech97.github.io/architech-portfolio/).
 
-<sub>💡 Bridging architecture and software — making Revit a place where AI actually ships work.</sub>
+<p align="center"><sub><strong>ArchiTECH</strong> · Connecting design intent with digital delivery.</sub></p>

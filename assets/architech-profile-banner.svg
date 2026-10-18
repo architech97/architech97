@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title description">
+  <title id="title">ArchiTECH — Architecture, Automation, Intelligence</title>
+  <desc id="description">A dark navy banner with silver and cyan ArchiTECH lettering, a blueprint-style architectural model, and the labels Revit API, BIM automation, and local AI.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070c17" />
+      <stop offset="1" stop-color="#10243c" />
+    </linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" />
+      <stop offset="1" stop-color="#aabbd1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2f9bff" />
+      <stop offset="1" stop-color="#53e8ed" />
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#167aca" stop-opacity="0.22" />
+      <stop offset="1" stop-color="#167aca" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#73bde5" stroke-opacity="0.09" stroke-width="0.7" />
+    </pattern>
+    <clipPath id="frame">
+      <rect x="1" y="1" width="1198" height="338" rx="22" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="340" fill="url(#background)" />
+    <rect x="682" width="518" height="340" fill="url(#grid)" />
+    <ellipse cx="958" cy="194" rx="296" ry="228" fill="url(#halo)" />
+    <path d="M0 337H1200" stroke="url(#accent)" stroke-width="5" />
+    <path d="M700 0V340" stroke="#68b6e0" stroke-opacity="0.11" />
+
+    <g font-family="DejaVu Sans, Arial, sans-serif">
+      <text x="58" y="50" fill="#8aa9c8" font-size="12" font-weight="600" letter-spacing="3">DESIGN THINKING. ENGINEERING PRECISION.</text>
+      <text x="55" y="126" font-size="70" font-weight="700" letter-spacing="-3"><tspan fill="url(#silver)">Archi</tspan><tspan fill="url(#accent)">TECH</tspan></text>
+      <text x="58" y="177" fill="#eef4fc" font-size="27" font-weight="500" letter-spacing="-0.5">Architecture. Automation. Intelligence.</text>
+      <text x="58" y="212" fill="#a8bed4" font-size="17">BIM systems built for the way AEC teams work.</text>
+
+      <g font-size="11" font-weight="600" letter-spacing="1.5">
+        <rect x="58" y="259" width="112" height="30" rx="6" fill="#0c2034" stroke="#28465f" />
+        <text x="114" y="279" text-anchor="middle" fill="#c5e6ff">REVIT API</text>
+        <rect x="182" y="259" width="169" height="30" rx="6" fill="#0c2034" stroke="#28465f" />
+        <text x="266.5" y="279" text-anchor="middle" fill="#c5e6ff">BIM AUTOMATION</text>
+        <rect x="363" y="259" width="110" height="30" rx="6" fill="#0c2034" stroke="#28465f" />
+        <text x="418" y="279" text-anchor="middle" fill="#5fe2ed">LOCAL AI</text>
+      </g>
+    </g>
+
+    <g fill="none" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M754 252L934 181L1114 252L934 323Z" fill="#0b2034" stroke="#318bc3" stroke-opacity="0.55" />
+      <path d="M799 234L979 305M844 217L1024 287M889 199L1069 269M799 270L979 199M844 287L1024 217M889 305L1069 234" stroke="#24618e" stroke-opacity="0.5" />
+      <path d="M754 252V261L934 332L1114 261V252M934 323V332" stroke="#235377" stroke-opacity="0.8" />
+
+      <g stroke="#50baff" stroke-width="1.3">
+        <path d="M953 73L1007 94L1007 256L953 235Z" fill="#102e49" />
+        <path d="M1007 94L1061 73L1061 235L1007 256Z" fill="#0b2238" />
+        <path d="M953 73L1007 52L1061 73L1007 94Z" fill="#17435f" stroke="#76e1f2" />
+        <path d="M953 97L1007 118L1061 97M953 120L1007 141L1061 120M953 143L1007 164L1061 143M953 166L1007 187L1061 166M953 189L1007 210L1061 189M953 212L1007 233L1061 212" stroke-opacity="0.42" />
+        <path d="M971 80V242M989 87V249M1025 87V249M1043 80V242" stroke-opacity="0.36" />
+        <path d="M1007 94V256" stroke="#74d6ff" />
+      </g>
+
+      <g stroke="#2e9ddf" stroke-width="1.2">
+        <path d="M831 168L890 191L890 291L831 268Z" fill="#0d2b44" />
+        <path d="M890 191L949 168L949 268L890 291Z" fill="#0a2237" />
+        <path d="M831 168L890 145L949 168L890 191Z" fill="#163c55" stroke="#73d3ee" />
+        <path d="M831 188L890 211L949 188M831 208L890 231L949 208M831 228L890 251L949 228M831 248L890 271L949 248" stroke-opacity="0.5" />
+        <path d="M851 176V276M870 183V283M910 183V283M930 175V275" stroke-opacity="0.32" />
+        <path d="M890 191V291" stroke="#67cded" />
+      </g>
+
+      <g stroke="#51cedc" stroke-width="1.2">
+        <path d="M927 241L972 259L972 307L927 289Z" fill="#123b4d" />
+        <path d="M972 259L1017 241L1017 289L972 307Z" fill="#0b2b3c" />
+        <path d="M927 241L972 223L1017 241L972 259Z" fill="#1a4b5a" stroke="#7ee4e9" />
+        <path d="M927 257L972 275L1017 257M927 273L972 291L1017 273" stroke-opacity="0.42" />
+        <path d="M942 247V295M957 253V301M987 253V301M1002 247V295" stroke-opacity="0.3" />
+      </g>
+
+      <g stroke="#4edce8" stroke-width="1.2">
+        <path d="M784 223H759V170H793" stroke-opacity="0.6" />
+        <path d="M1082 206H1121V156H1099" stroke-opacity="0.6" />
+        <path d="M1052 286H1111V301H1140" stroke-opacity="0.45" />
+        <circle cx="793" cy="170" r="3" fill="#4edce8" />
+        <circle cx="1099" cy="156" r="3" fill="#4edce8" />
+        <circle cx="1140" cy="301" r="3" fill="#4edce8" />
+      </g>
+      <path d="M753 62V43H777M1127 62V43H1103" stroke="#4986ae" stroke-opacity="0.55" />
+      <path d="M789 113H799M794 108V118M1092 101H1102M1097 96V106" stroke="#5998bb" stroke-opacity="0.65" />
+    </g>
+  </g>
+  <rect x="1" y="1" width="1198" height="338" rx="22" fill="none" stroke="#273c55" />
+</svg>
